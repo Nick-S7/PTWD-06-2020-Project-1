@@ -1,0 +1,133 @@
+#targets {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid black;
+    width: 100vw;
+    justify-content: center;
+    height: 940px;
+ 
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+}
+
+.target{
+   border: 1px solid black;
+   border-radius: 50%;
+   width: 70px;
+   height: 70px;
+   padding: 30px 30px;
+   margin: 30px 70px;
+   color: #fff;
+   background-image: url('/images/targetCrop.png');
+   background-position: center; /* Center the image */
+   background-repeat: no-repeat; /* Do not repeat the image */
+   background-size: cover;
+}
+
+#background {
+    background-color:#9e9e9e;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+#score {
+  color: #fff;
+  font-size: 40px;
+  border-top: 3px solid  #890923;
+
+}
+#targets_clicked {
+  font-size: 40px;
+  color: #fff;
+  margin: 0;
+  text-align: center;
+  border-bottom: 2px solid  #69071b;
+}
+
+#time{
+  padding-right: 20px;
+
+}
+
+#topBar{
+  display: flex;
+  justify-content: space-around;
+}
+
+#stopwatch{
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  padding: 15px 0;
+  width: 50vw;
+  border-top: 3px solid  #890923;
+  border-bottom: 2px solid  #69071b;
+}
+
+#showScore {
+  color: #e8103b;
+}
+
+#scoreMsg {
+  height: 60px;
+  font-size: 45px;
+  font-weight: 600;
+  border: 4px dotted #69071b;
+}
+
+#endGame {
+  align-content: center;
+
+}
+
+/* Imitate a pressed effect for buttons/targets */
+.target:active {
+    top: 5px;
+    box-shadow: none;
+  }
+  
+  .target.active {
+    top: 2px;
+    box-shadow: 0 2px #890923;
+  }
+  
+  .target.active:hover {
+    box-shadow: 0 2px #69071b;
+  }
+  
+  .target:active,
+  .target.active:active {
+    top: 5px;
+    box-shadow: none;
+  }
+  /* last button effects */
+  #newGameBtn {
+    box-shadow: 3px 4px 0px 0px #8a2a21;
+    background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+    background-color:#c62d1f;
+    border-radius:18px;
+    border:1px solid #d02718;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:20px;
+    font-weight:bold;
+    padding:10px 55px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #810e05;
+    margin-left: 250px;
+  }
+    #newGameBtn:hover {
+    background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+    background-color:#f24437;
+  }
+  #newGameBtn:active {
+    position:relative;
+    top:1px;
+  }

@@ -13,19 +13,25 @@ let secUni = document.getElementById('secUni');
 let milDec = document.getElementById('milDec');
 let milUni = document.getElementById('milUni');
 let timer;
-
+let clicked = false;
 
 
 //clock only displays 1/100 of a second so only needed to updated page every 10 milliseconds.
 function printTime() {
   // ... your code goes here
-  timer = setInterval(() => {
-    timerDisplay()
-    if(printSeconds()[0] === '1') {
-      clearInterval(timer)
-      targetsParent.innerHTML = `<div id = "endGame"><h1 id="scoreMsg">Not bad! You got <span id ='showScore'>${score.innerHTML}</span> targets in 10 seconds!</h1><br> </br><button id="newGameBtn" type="button" onClick="window.location.reload();">I can do better!</button></div>`
-    }
-  }, 10);
+  if(!clicked) {
+    clicked = true;
+
+    timer = setInterval(() => {
+      timerDisplay()
+      if(printSeconds()[0] === '1') {
+        clicked = false
+        clearInterval(timer)
+        targetsParent.innerHTML = `<div id = "endGame"><h1 id="scoreMsg">Not bad! You scored <span id ='showScore'>${score.innerHTML}</span> points in 10 seconds!</h1><br> </br><button id="newGameBtn" class="gameBtn" type="button" onClick="window.location.reload();">I can do better!</button><button id="leaveBtn" class="gameBtn" type="button" 
+        onclick="window.open('', '_self', ''); window.close();">I accept my life as a slow clicker...</button></div><div id= "scoreboard"><h1 id= "sac">Score Assessment Chart</h1><h1>75+ Points : Legendary</h1><h2>50 - 75 Points : Is your finger burning yet?</h2><h3>25 - 50 Points : Not Bad...</h3><h4>0-25 Points : Hello? Are you even playing?...</h4></div>`
+      }
+    }, 10);
+  }
 }
 
 //created timerDisplay function to simplify code

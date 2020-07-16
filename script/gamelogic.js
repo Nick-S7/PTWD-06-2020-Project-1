@@ -13,7 +13,8 @@ function toggle(element, classes) {
 
 
   targets.forEach((target, i, arr) => {
-    target.onclick = function() {
+    target.onclick = function(event) {
+        if(event.target.id === 'bullseye') score.innerHTML = Number(score.innerHTML) + 4
         score.innerHTML++;
       // let random
     //get a random element in arr 
@@ -31,5 +32,14 @@ function toggle(element, classes) {
     
 })
 
+/*let bullseye = document.querySelector('#bullseye')
 
+function bullseyeScore(){
 
+bullseye.forEach((bullseye, i, arr) => {
+    bullseye.onclick = function() {
+        score.innerHTML += '5';
+    }
+})
+}
+*/

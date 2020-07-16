@@ -2,10 +2,10 @@
     display: flex;
     flex-direction: row;
     border-bottom: 1px solid black;
-    width: 100vw;
     justify-content: center;
     height: 940px;
- 
+    width: 1331px;
+    margin-left: 100px;
 }
 
 .row{
@@ -21,14 +21,29 @@
    padding: 30px 30px;
    margin: 30px 70px;
    color: #fff;
-   background-image: url('./images/targetCrop.png');
+   background-image: url(../images/targetCrop.png);
    background-position: center; /* Center the image */
    background-repeat: no-repeat; /* Do not repeat the image */
    background-size: cover;
 }
 
+#bullseye{
+  width: 35px;
+  height: 35px;
+  border: 0px solid black;
+  border-radius: 50%;
+  margin-right: 12px;
+  margin-left: 16.5px;
+  margin-top: 16px;
+}
 #background {
     background-color:#9e9e9e;
+    width: 1331px;
+    margin-left: 100px;
+}
+
+body{
+  background-color: black;
 }
 
 .hide {
@@ -78,6 +93,21 @@
   font-size: 45px;
   font-weight: 600;
   border: 4px dotted #69071b;
+  width: 850px;
+}
+#scoreboard{
+  margin-top: 10px;
+  border: 3px solid black;
+  height: 300px;
+  padding-left: 5px;
+  text-align: center;
+  margin-right: 120px;
+  margin-left: 20px;
+}
+
+#sac{
+  color: #810e05;
+  font-size: large;
 }
 
 #endGame {
@@ -106,7 +136,7 @@
     box-shadow: none;
   }
   /* last button effects */
-  #newGameBtn {
+  .gameBtn {
     box-shadow: 3px 4px 0px 0px #8a2a21;
     background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
     background-color:#c62d1f;
@@ -123,11 +153,15 @@
     text-shadow:0px 1px 0px #810e05;
     margin-left: 250px;
   }
-    #newGameBtn:hover {
+    .gameBtn:hover {
     background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
     background-color:#f24437;
   }
-  #newGameBtn:active {
+  .gameBtn:active {
     position:relative;
     top:1px;
+  }
+
+  #leaveBtn {
+    margin-top: 20px;
   }

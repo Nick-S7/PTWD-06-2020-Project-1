@@ -28,7 +28,7 @@ function printTime() {
         clicked = false
         clearInterval(timer)
         targetsParent.innerHTML = `<div id = "endGame"><h1 id="scoreMsg">Not bad! You scored <span id ='showScore'>${score.innerHTML}</span> points in 10 seconds!</h1><br> </br><button id="newGameBtn" class="gameBtn" type="button" onClick="window.location.reload();">I can do better!</button><button id="leaveBtn" class="gameBtn" type="button" 
-        onclick="window.close();">I accept my life as a slow clicker...</button></div><div id= "scoreboard"><h1 id= "sac">Score Assessment Chart</h1><h1>75+ Points : Legendary</h1><h2>50 - 75 Points : Is your finger burning yet?</h2><h3>25 - 50 Points : Not Bad...</h3><h4>0-25 Points : Hello? Are you even playing?...</h4></div>`
+        onclick="window.open('', '_self', ''); window.close();">I accept my life as a slow clicker...</button></div><div id= "scoreboard"><h1 id= "sac">Score Assessment Chart</h1><h1>75+ Points : Legendary</h1><h2>50 - 75 Points : Is your finger burning yet?</h2><h3>25 - 50 Points : Not Bad...</h3><h4>0-25 Points : Hello? Are you even playing?...</h4></div>`
       }
     }, 10);
   }

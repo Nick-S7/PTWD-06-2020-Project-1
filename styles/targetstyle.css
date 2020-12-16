@@ -24,7 +24,7 @@
    margin: 30px 70px;
    color: #fff;
    background-image: url(../images/targetCrop.png);
-   background-position: center; /* Center the image */
+   background-position: center; 
    background-repeat: no-repeat; 
    background-size: cover;
 }

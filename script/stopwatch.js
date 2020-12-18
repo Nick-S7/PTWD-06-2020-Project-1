@@ -43,37 +43,37 @@ function timerDisplay() {
 }
 
 function printMinutes() {
-  // ... your code goes here
+ 
   return chronometer.getMinutes();
 }
 
 function printSeconds() {
-  // ... your code goes here
+ 
   return chronometer.getSeconds();
 }
 
 // ==> BONUS
 function printMilliseconds() {
-  // ... your code goes here
+  
   return chronometer.getMilliseconds();
 }
 
 
 function setStopBtn() {
-  // ... your code goes here
+ 
   btnLeft.className = "btn stop";
   btnLeft.innerText = "STOP";
 }
 
 
 function setStartBtn() {
-  // ... your code goes here
+  
   btnLeft.className = "btn start";
   btnLeft.innerText = "START";
 }
 
 function setResetBtn() {
-  // ... your code goes here
+  
   btnRight.className = "btn reset";
   btnRight.innerText = "RESET";
 }
@@ -82,7 +82,7 @@ function setResetBtn() {
 let startTarget = document.getElementById('t1')
 
 startTarget.addEventListener('click', () => {
-  // ... your code goes here
+  
   if (startTarget.className !== "hide") {
     chronometer.startClick();
     printTime();

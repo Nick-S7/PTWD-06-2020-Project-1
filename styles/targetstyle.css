@@ -68,7 +68,7 @@ body{
   background-color: black;
   display: inline-block;
   background-image: url(../images/backdropp.png);
-  background-position: center; 
+  background-position: center; /* Center the image */
   background-repeat: no-repeat; 
   background-size: cover;
 }

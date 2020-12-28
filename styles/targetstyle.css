@@ -152,7 +152,7 @@ body{
 
 }
 
-/* Imitate a pressed effect for buttons/targets */
+
 .target:active {
     top: 5px;
     box-shadow: none;

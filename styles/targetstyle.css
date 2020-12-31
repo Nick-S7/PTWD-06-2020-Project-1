@@ -78,7 +78,7 @@ body{
 .hide {
   visibility: hidden;
 }
-
+/* flex start */ 
 #score {
   color: #fff;
   font-size: 40px;

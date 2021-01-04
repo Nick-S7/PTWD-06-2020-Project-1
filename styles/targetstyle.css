@@ -10,7 +10,7 @@
     width: 1331px;
 }
 
-
+/* spacing */ 
 .row{
     display: flex;
     flex-direction: column;

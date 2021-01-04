@@ -10,7 +10,7 @@
     width: 1331px;
 }
 
-/* spacing */ 
+ 
 .row{
     display: flex;
     flex-direction: column;
@@ -84,6 +84,8 @@ body{
   border-top: 3px solid  #890923;
 
 }
+
+
 #targets_clicked {
   font-size: 40px;
   color: #fff;

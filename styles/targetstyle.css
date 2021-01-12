@@ -105,6 +105,8 @@ body{
   justify-content: space-around;
 }
 
+/* checking for syle display*/
+
 #stopwatch{
   color: #fff;
   text-align: center;

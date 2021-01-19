@@ -1,3 +1,6 @@
+
+/* all targets container */ 
+
 #targets {
     display: flex;
     flex-direction: row;
@@ -9,6 +12,7 @@
     height: 940px;
     width: 1331px;
 }
+
 
  
 .row{

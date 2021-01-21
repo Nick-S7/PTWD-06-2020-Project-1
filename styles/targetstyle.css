@@ -82,7 +82,7 @@ body{
   background-size: cover;
 }
 
-/* switched class once clicked */
+/* class switched to once clicked */
 
 .hide {
   visibility: hidden;

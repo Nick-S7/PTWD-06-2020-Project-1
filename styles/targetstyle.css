@@ -118,6 +118,7 @@ body{
   justify-content: space-around;
 }
 
+/* stop watch display */ 
 
 #stopwatch{
   color: #fff;
@@ -129,6 +130,8 @@ body{
   border-bottom: 2px solid  #69071b;
   height: 100px;
 }
+
+/* score */ 
 
 #showScore {
   color: #e8103b;

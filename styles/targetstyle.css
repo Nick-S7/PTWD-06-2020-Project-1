@@ -216,9 +216,11 @@ body{
   /* inside html element after game */ 
   
   .gameBtn:active {
-    position:relative;
-    top:1px;
+    position: relative;
+    top: 1px;
   }
+
+/* close window button */ 
 
   #leaveBtn {
     margin-top: 20px;

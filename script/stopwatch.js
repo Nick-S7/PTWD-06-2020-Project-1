@@ -52,7 +52,7 @@ function printSeconds() {
   return chronometer.getSeconds();
 }
 
-// ==> BONUS
+
 function printMilliseconds() {
   
   return chronometer.getMilliseconds();

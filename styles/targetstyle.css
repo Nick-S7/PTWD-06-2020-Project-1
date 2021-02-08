@@ -186,15 +186,15 @@ body{
     box-shadow: 0 2px #890923;
 }
   
-  .target.active:hover {
+.target.active:hover {
     box-shadow: 0 2px #69071b;
-  }
+}
   
-  .target:active,
-  .target.active:active {
+.target:active,
+.target.active:active {
     top: 5px;
     box-shadow: none;
-  }
+}
   /* last button effects */
   .gameBtn {
     box-shadow: 3px 4px 0px 0px #8a2a21;

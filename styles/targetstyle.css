@@ -179,12 +179,12 @@ body{
 .target:active {
     top: 5px;
     box-shadow: none;
-  }
+}
   
-  .target.active {
+.target.active {
     top: 2px;
     box-shadow: 0 2px #890923;
-  }
+}
   
   .target.active:hover {
     box-shadow: 0 2px #69071b;

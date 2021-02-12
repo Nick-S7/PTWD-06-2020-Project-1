@@ -189,8 +189,7 @@ body{
 .target.active:hover {
     box-shadow: 0 2px #69071b;
 }
-  
-.target:active,
+  .target:active,
 .target.active:active {
     top: 5px;
     box-shadow: none;

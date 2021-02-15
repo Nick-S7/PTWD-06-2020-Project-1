@@ -96,7 +96,6 @@ body{
   color: #fff;
   font-size: 40px;
   border-top: 3px solid  #890923;
-
 }
 
 /* clicked target style */ 
@@ -211,6 +210,7 @@ body{
     text-decoration:none;
     text-shadow:0px 1px 0px #810e05;
   }
+  
     .gameBtn:hover {
     background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
     background-color:#f24437;

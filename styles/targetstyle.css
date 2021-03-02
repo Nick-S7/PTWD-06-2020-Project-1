@@ -64,17 +64,20 @@
   font-family: 'Bungee Inline';font-size: 22px;
   display: inline-block;
   height: 40vw;
+
 }
 
 #landHead{
   color: #fff;
   border-bottom: 3px solid #e8103b;
+
 }
 
 .backBack {
   display: inline-block;
   width: 100vw;
   text-align: center;
+  
 }
 
 body{
